@@ -1241,13 +1241,12 @@ body.focus-mode .editor-page { box-shadow: var(--shadow-lg); border: none; paddi
   }
   
   .btn {
-    padding: 7px 12px;
-    font-size: 12px;
+    padding: 9px 16px;
+    font-size: 13px;
   }
   
   .btn-icon {
-    width: 34px;
-    height: 34px;
+    width: 38px; height: 38px;
   }
   
   /* Mobile editor: even more space for small phones */
@@ -1277,8 +1276,8 @@ body.focus-mode .editor-page { box-shadow: var(--shadow-lg); border: none; paddi
   }
   
   .btn-icon {
-    width: 32px;
-    height: 32px;
+        width: 32px;
+        height: 32px;
   }
   
   .btn-primary {
