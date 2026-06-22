@@ -1241,7 +1241,7 @@ body.focus-mode .editor-page { box-shadow: var(--shadow-lg); border: none; paddi
   }
   
   .btn {
-    padding: 9px 16px;
+    padding: 7px 12px;
     font-size: 13px;
   }
   
@@ -1283,5 +1283,34 @@ body.focus-mode .editor-page { box-shadow: var(--shadow-lg); border: none; paddi
   .btn-primary {
     padding: 7px 10px;
     font-size: 11px;
+  }
+}
+
+
+/* Chat Gpt */
+
+.btn-icon {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+@media (max-width: 600px) {
+  .btn-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .btn-icon svg {
+    width: 20px;
+    height: 20px;
   }
 }
